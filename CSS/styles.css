@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import
 url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap);
 
@@ -16,28 +17,27 @@ h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-
+/* Bio Image */
 img {
     border: 5px solid white;
 }
 
+/* Bio Text */
 #bio {
   display: flex; 
   border: 1px solid red;
 }
 
+/* Work Samples Formatting */
 #workSamples {
   border: 1px solid green;
   display: flex;
   margin-top: 20px;
 }
 
-#resumeLogo {
-  height: 75px;
-}
-
+/* Work Samples Images*/
 .resumeLogo {
-  height: 80px;
+  height: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,6 +52,13 @@ img {
   margin-right: 8px;
 }
 
-.projectCenter {
+
+
+h3 {
   text-align:center;
+}
+
+#logo {
+  height: 100px;
+  border: none;
 }
