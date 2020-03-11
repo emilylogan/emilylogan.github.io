@@ -1,8 +1,49 @@
+@import
+url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap);
+
 body {
-    background: rgb(231, 192, 231);
+  background: url(https://images.unsplash.com/photo-1502920970741-47c1bafc8d49?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 55px;
+  margin-left: 55px;
 }
 
-img{
-    height: 100px;
-    width: 75px;
+#wreath {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#emily {
+  height: 100px;
+}
+
+img {
+    border: 5px solid white;
+    height: 400px;
+}
+
+#bio {
+  display: flex; 
+  
+  /* border: 2px solid yellow; */
+}
+
+#links {
+  border: 1px solid green;
+}
+.resumeLogo {
+  height: 75px;
+  display: flex;
+  
 }
