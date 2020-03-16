@@ -36,6 +36,7 @@ h1 {
 /* Bio Text */
 #bio {
   display: flex; 
+  width: 50%;
 }
 
 /* Work Samples Formatting */
