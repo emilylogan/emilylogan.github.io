@@ -28,7 +28,7 @@ h1 {
 
 /* Bio Image */
 #emilyPic {
-  width: 50%;
+  width: 200px;
   border: 5px solid white;
   margin-left: 25px;
 }
@@ -36,7 +36,6 @@ h1 {
 /* Bio Text */
 #bio {
   display: flex; 
-  width: 50%;
 }
 
 /* Work Samples Formatting */
